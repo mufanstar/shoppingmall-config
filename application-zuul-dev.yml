@@ -7,5 +7,7 @@ zuul:
   routes:
     myUser.serviceId: shoppingmall-plat #这是调用满足条件的服务名，注意要小写
     myUser.path: /user/** #这是所有路径前的通配
+    consumer.serviceId: shoppingmall-consumer #这是调用满足条件的服务名，注意要小写
+    consumer.path: /consumer/** #这是所有路径前的通配
   ignored-services: "*" #用*来通配符，忽略从9527端口通过服务名来调用
   prefix: "/services" #这是所有路径的前缀
