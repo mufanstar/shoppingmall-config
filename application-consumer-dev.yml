@@ -3,6 +3,6 @@ server:
 spring:
   application:
     name: shoppingmall-consumer
-feign:
+ribbon:
   eureka:
     enabled: true
