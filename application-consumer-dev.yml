@@ -3,6 +3,6 @@ server:
 spring:
   application:
     name: shoppingmall-consumer
-ribbon:
-  eureka:
+feign:
+  hystrix:
     enabled: true
